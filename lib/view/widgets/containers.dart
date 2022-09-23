@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 Widget popularContainer({String? url, String? Gamename}) {
@@ -211,7 +210,7 @@ Widget textLabel({required String label}) {
 
 Widget commonContainer({String? url, String? Gamename}) {
   return Padding(
-    padding: const EdgeInsets.only(left: 25.0, top: 15,bottom: 5),
+    padding: const EdgeInsets.only(left: 25.0, top: 15, bottom: 5),
     child: Column(
       // ignore: prefer_const_literals_to_create_immutables
       children: [

@@ -74,7 +74,7 @@ class MyWidget extends StatelessWidget {
             ),
           ),
         ),
-        body:  TabBarView(
+        body: TabBarView(
           children: <Widget>[
             Homepage(),
             Icon(Icons.hourglass_empty, size: 350),
